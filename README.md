@@ -90,8 +90,25 @@ If everything works well, you can run the example usage described below.
          
 Any questions and issues are welcome, feel free to contact us at zeynep.yirmibesoglu@boun.edu.tr. 
 
+### Citation:
 
+If you use the model in your research, please cite the paper: 
 
+```
+@inproceedings{yirmibesoglu-gungor-2020-ermi,
+    title = "{ERMI} at {PARSEME} Shared Task 2020: Embedding-Rich Multiword Expression Identification",
+    author = {Yirmibe{\c{s}}o{\u{g}}lu, Zeynep  and
+      G{\"u}ng{\"o}r, Tunga},
+    booktitle = "Proceedings of the Joint Workshop on Multiword Expressions and Electronic Lexicons",
+    month = dec,
+    year = "2020",
+    address = "online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.mwe-1.17",
+    pages = "130--135",
+    abstract = "This paper describes the ERMI system submitted to the closed track of the PARSEME shared task 2020 on automatic identification of verbal multiword expressions (VMWEs). ERMI is an embedding-rich bidirectional LSTM-CRF model, which takes into account the embeddings of the word, its POS tag, dependency relation, and its head word. The results are reported for 14 languages, where the system is ranked 1st in the general cross-lingual ranking of the closed track systems, according to the Unseen MWE-based F1.",
+}
+```
 
 
 
